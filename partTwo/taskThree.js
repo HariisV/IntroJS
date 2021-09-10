@@ -12,9 +12,9 @@ function seleksiNilai(nilaiAwal, nilaiAkhir,dataArray){
             }
         });
         if (tampungData.length > 0) {
-            console.log(tampungData.sort(function (a, b) { return a - b }));
+            return console.log(tampungData.sort(function (a, b) { return a - b }));
         }else{
-            console.log("Nilai Tidak Ditemukan");
+            return console.log("Nilai Tidak Ditemukan");
         }
     }
 }
