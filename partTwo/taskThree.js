@@ -11,8 +11,12 @@ function seleksiNilai(nilaiAwal, nilaiAkhir,dataArray){
                 tampungData.push(element)
             }
         });
-        console.log(tampungData.sort(function (a, b) { return a-b }));
+        if (tampungData.length > 0) {
+            console.log(tampungData.sort(function (a, b) { return a - b }));
+        }else{
+            console.log("Nilai Tidak Ditemukan");
+        }
     }
 }
 
-seleksiNilai(5, 20, [2, 25, 4, 14, 17, 30, 8])
+seleksiNilai(5, 20, [2,2,2,2,2,2,10])
