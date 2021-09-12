@@ -6,10 +6,8 @@ const name = [
 'Ella', 'Faith', 'Olivia', 'Penelope']
 
 function Searching(keyword, limit, callbackProses, callbackCLG) {
-    console.log("Memulai")
     let result = callbackProses(keyword, limit)
     callbackCLG(result)
-    console.log("Selesai")
 }
 
 function prosesCallback(keyword, limit){
