@@ -62,7 +62,7 @@ const hitungPajak = (harga, pajak) =>{
     }
 }
 
-// arkFood(2000, "DITRAKTIRDEMY", 5, true)
+arkFood(30000, "DITRAKTsIRDEMY", 3, false)
 // arkFood("75000", 'ARKFOOD5', 5, true)
 // arkFood(75000, 'ARKFOOD5', "5", true)
 // arkFood(175000, 'ARKFOOD5', 5, "benar")
